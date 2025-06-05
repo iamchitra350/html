@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            border: 1px solid black;
+            width: 150px;
+            height: 130px;
+            background-color: blue;
+            animation-name: Welcome;
+            animation-duration:5s;
+            position: relative;
+            animation-delay:2s;
+            animation-iteration-count:infinite;
+            /*animation-direction:reverse;*/
+            animation-play-state: running;
+        }
+
+        @keyframes Welcome{
+         /*from{background-color: blueviolet;}  
+         to{background-color: cadetblue;}*/
+
+         0%{background-color: blue;left: 0;top: 0;}
+         25%{background-color: aqua;left:100px;top: 0;}
+         45%{background-color: blueviolet;top: 100px;left: 100px;}
+         65%{background-color: white;top:100px;left:0;}
+         
+
+
+
+
+        }
+    </style>
+</head>
+<body>
+    <p>This is animation property</p>
+</body>
+</html>

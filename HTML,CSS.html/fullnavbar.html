@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .main{
+            background-color: gainsboro;
+        }
+
+        ul{
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        li{
+            float: left;
+        }
+
+        /*.dropdown-menu{
+            position: absolute;
+            display: none;
+        }*/
+
+        .dropdown-menu a{
+            display: block;
+            background-color: slateblue;
+            text-align: center;
+            margin: 7px;
+            padding: 10px;
+        }
+
+        li a{
+            text-decoration: none;
+            padding: 5px;
+            background-color: pink;
+            color: aliceblue;
+            border: 0px;
+            margin: 5px;
+        }
+
+        li.dropdown:hover .dropdown-menu{
+            display: block;
+        }
+
+        li a:hover{
+            background-color: cornflowerblue;
+        }
+
+        /*li a.dropdown:hover .dropdown-menu{
+            background-color: rgb(50, 183, 183);
+            display: block;
+        }*/
+
+        li .dropdown:hover .dropdown-menu{
+            background-color:blue;
+            color:bisque;
+            display: block;
+        }
+        
+        li.dropdown a.dropbtn{
+           background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <ul>
+            <li><a href=""><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+            <li><a href="">About us</a></li>
+            <li><a href="">Contact us</a></li>
+            <li class="dropdown"><a href="" class="dropbtn">Fashion</a>
+                 <div class="dropdown-menu">
+                     <a href="">Men's clothing</a>
+                     <a href="">Women's clothing</a>
+                     <a href="">Accessories</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>

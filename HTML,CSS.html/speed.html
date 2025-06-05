@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div{
+        border: 1px solid black;
+        width: 80px;
+        background-color: blue;
+        margin: 10px;
+        /*animation-name:example;*/
+        animation:example infinite 3s;
+        position:relative;
+        }
+
+        @keyframes example{
+            0%{left: 0}
+            100%{left:400px;}
+        }
+
+        .a1{
+            animation-timing-function:linear ;
+        }
+        .b1{
+            animation-timing-function:ease ;
+        }
+        .c1{
+            animation-timing-function:ease-in ;
+        }
+        .d1{
+            animation-timing-function:ease-out ;
+        }
+        .e1{
+            animation-timing-function:ease-in-out;
+        }
+        .f1{
+            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        }
+        .g1{
+            animation-timing-function: steps(10,jump-start);
+        }
+    </style>
+</head>
+<body>
+    <div class="a1">linear</div>
+    <div class="b1">ease</div>
+    <div class="c1">ease-in</div>
+    <div class="d1">ease-out</div>
+    <div class="e1">ease-in-out</div>
+    <div class="f1">cubic</div>
+    <div class="g1">step</div>
+</body>
+</html>

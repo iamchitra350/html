@@ -1,0 +1,50 @@
+for practice create 3 forms :-
+
+
+1.Registration Form 
+    name
+    email
+    username
+    password
+    confirm password 
+    register
+
+
+
+
+2.Login Form 
+    username
+    password
+    a.personal information
+    name 
+    city
+    number
+    email
+    address
+
+    b.education
+    courses
+    previous year marksheet
+    admission year 
+    stream 
+    degree
+
+
+
+
+
+
+3.Student Admission:
+    a.personal information
+    name 
+    city
+    number
+    email
+    address
+
+    b.education
+    courses
+    previous year marksheet
+    admission year 
+    stream 
+    degree

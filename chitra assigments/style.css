@@ -1,0 +1,71 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.main {
+    width:100px;
+    background-color:red;
+     background-size:cover;
+    background-position:center;
+    height:100vh;
+}
+
+.navbar {
+    width:1200px;
+    height:75px;
+    margin:auto
+}
+
+.icon {
+    width: 200px;
+    height: 70px;
+    float:left;
+}
+
+.logo {
+    color:white;
+    font-size:35px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-left: 20px;
+    float: left;
+    padding-top:10px;
+}
+
+.menu {
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin: top 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+    transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover {
+color: orange;
+}
+
+.search {
+    width:0px;
+    float:left;
+    margin-left: 80px;
+}
